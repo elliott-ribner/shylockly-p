@@ -24,7 +24,7 @@ import { User } from 'src/users/user.entity'
 //   });
 // }
 
-const aws_key = 'fefkfkkfkfk' // fake key - testing gitleaks
+const AWS_KEY = 'fefkfkkfkfk' // fake key - testing gitleaks
 
 export default class FailedPaymentWorkfow {
   event: CreateEventDto
