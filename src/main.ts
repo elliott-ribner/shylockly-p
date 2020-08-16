@@ -11,3 +11,5 @@ async function bootstrap() {
 }
 
 bootstrap()
+
+const AWS_KEY = 'fefkfkkfkfk' // fake key - testing gitleaks
