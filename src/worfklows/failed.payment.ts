@@ -24,6 +24,8 @@ import { User } from 'src/users/user.entity'
 //   });
 // }
 
+const aws_key = 'fefkfkkfkfk' // fake key - testing gitleaks
+
 export default class FailedPaymentWorkfow {
   event: CreateEventDto
   paymentId: string
@@ -40,7 +42,6 @@ export default class FailedPaymentWorkfow {
 
   constructor(event: CreateEventDto) {
     this.event = event
-    this.clientSecret = 'efjfjfj22j2j2'
     //this.paymentId = null; //not needed?
     this.profileID = '5afb17a1529ef211b4f0e6d' // fake profileID
     // this.mandateId = null; //not needed?
